@@ -1796,6 +1796,8 @@ jobs:
           CONFIG_PSI=y
           CONFIG_LRU_GEN=y
           CONFIG_LRU_GEN_ENABLED=y
+          CONFIG_INPUT_UINPUT=y
+          CONFIG_UHID=y
           EOF
 
           # 6.18 的 modpost 只要带 -u（TRIM_UNUSED_KSYMS 白名单）就把所有导出符号
