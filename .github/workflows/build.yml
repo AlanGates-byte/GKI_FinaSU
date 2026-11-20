@@ -1732,14 +1732,12 @@ jobs:
           CONFIG_NFT_NAT=y
           CONFIG_NFT_CONNLIMIT=y
           CONFIG_NFT_CT=y
-          CONFIG_NFT_COUNTER=y
           CONFIG_NFT_LOG=y
           CONFIG_NFT_LIMIT=y
           CONFIG_NFT_REJECT=y
           CONFIG_NFT_COMPAT=y
           CONFIG_NF_TABLES_IPV4=y
           CONFIG_NF_TABLES_IPV6=y
-          CONFIG_NF_TABLES_INET=y
           CONFIG_TUN=y
           CONFIG_VETH=y
           CONFIG_BRIDGE=y
